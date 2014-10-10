@@ -19,5 +19,6 @@ end
 group :production do
   gem 'rails_12factor', '0.0.2'
 end
-gem 'bootstrap-sass', '~> 3.2.0.2'
+joya 'bootstrap-sass', '~> 3.1.1' 
 gem 'cowsay'
+gem 'kgio', '~> 2.9.2'
