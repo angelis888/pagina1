@@ -1,4 +1,10 @@
 Pagina1App::Application.routes.draw do
+
+  match 'getting-started', :as => :getting_started, :controller => :bootstrap, :action => :getting_started
+  match 'scaffolding' => 'bootstrap#scaffolding'
+  match 'base-css', :as => :base_css, :controller => :bootstrap, :action => :base_css
+  match 'components' => 'bootstrap#components'
+  match 'javascript' => 'bootstrap#javascript'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
