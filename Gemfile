@@ -5,10 +5,6 @@ gem 'rails', '4.0.0'
 group :development do
   gem 'sqlite3', '1.3.8'
 end
-source 'https://rubygems.org'
-
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 gem 'rails_12factor', group: :production
@@ -16,9 +12,6 @@ gem 'unicorn'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-
-gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
@@ -34,11 +27,7 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-gem 'bootstrap-sass', '~> 3.2.0'
-
-source 'https://rubygems.org'
-
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'cowsay'
-
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
