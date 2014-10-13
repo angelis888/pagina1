@@ -21,4 +21,6 @@ group :production do
 end
 gem 'twitter-bootstrap-rails'
 gem 'cowsay'
-gem 'kgio', '~> 2.9.2'
+
+#gem 'kgio', '~> 2.9.2'
+gem 'thin'
