@@ -19,6 +19,6 @@ end
 group :production do
   gem 'rails_12factor', '0.0.2'
 end
-gem 'twitter-bootstrap-rails', '~> 3.2.0'
+gem 'twitter-bootstrap-rails'
 gem 'cowsay'
 gem 'kgio', '~> 2.9.2'
