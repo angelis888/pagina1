@@ -25,4 +25,4 @@ gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 gem 'formtastic'
 gem 'formtastic-bootstrap'
-gem 'sqlite3'
+
