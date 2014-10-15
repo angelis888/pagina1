@@ -20,8 +20,13 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 gem 'twitter-bootstrap-rails'
+gem 'formtastic'
+gem 'formtastic-bootstrap'
 gem 'cowsay'
-
+gem 'less'
+gem 'commonjs'
+gem 'therubyracer', :platforms => :ruby
+gem 'less-rails'
 gem 'kgio', '~> 2.9.2'
 gem 'thin'
 
