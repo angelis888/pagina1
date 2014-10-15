@@ -5,11 +5,16 @@ gem 'rails', '4.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+group :assets do
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
+  gem 'less'
+  gem 'commonjs'
+  gem 'therubyracer', :platforms => :ruby
+  gem 'uglifier', '>= 1.3.0'
+end
+
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
@@ -23,9 +28,6 @@ gem 'twitter-bootstrap-rails'
 gem 'formtastic'
 gem 'formtastic-bootstrap'
 gem 'cowsay'
-gem 'less'
-gem 'commonjs'
-gem 'therubyracer', :platforms => :ruby
 gem 'less-rails'
 gem 'kgio', '~> 2.9.2'
 gem 'thin'
