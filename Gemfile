@@ -30,6 +30,6 @@ gem 'formtastic-bootstrap'
 gem 'cowsay'
 gem 'less-rails'
 gem 'kgio', '~> 2.9.2'
-gem 'thin'
+
 
 
