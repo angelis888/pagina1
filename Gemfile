@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
-gem 'rails', '4.0.4'
+gem 'rails', '4.0.0'
 
 # Use postgresql as the database for Active Record
 group :production do
@@ -10,8 +10,8 @@ group :development do
   gem 'sqlite3'
 end
 group :assets do
-  gem 'sass-rails', '~> 4.0.4'
-  gem 'coffee-rails', '~> 4.0.4'
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
   gem 'less'
   gem 'commonjs'
   gem 'therubyracer', :platforms => :ruby
