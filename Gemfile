@@ -3,8 +3,12 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 
 # Use postgresql as the database for Active Record
-gem 'pg'
-
+group :production do
+  gem 'pg'
+end
+group :development do
+  gem 'sqlite3'
+end
 group :assets do
   gem 'sass-rails', '~> 4.0.0'
   gem 'coffee-rails', '~> 4.0.0'
