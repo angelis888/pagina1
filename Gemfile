@@ -2,6 +2,13 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 gem 'rails', '4.0.0'
 
+gem 'nokogiri'
+gem 'rack', '~>1.1'
+gem 'rspec', :require => 'spec'
+require 'rubygems'
+require 'bundler/setup'
+# require your gems as usual
+require 'nokogiri'
 # Use postgresql as the database for Active Record
 group :production do
   gem 'pg'
@@ -17,7 +24,6 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
   gem 'uglifier', '>= 1.3.0'
 end
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'jquery-rails'
 gem 'turbolinks'
